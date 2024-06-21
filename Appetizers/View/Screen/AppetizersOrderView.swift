@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AppetizersOrderView.swift
 //  Appetizers
 //
 //  Created by Bholanath Barik on 15/06/24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct AppetizersOrderView: View {
     var body: some View {
-        AppetizersMainPage()
+        Text("AppetizersOrderView")
     }
 }
 
 #Preview {
-    MainView()
+    AppetizersOrderView()
 }
